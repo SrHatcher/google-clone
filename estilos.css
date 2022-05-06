@@ -1,0 +1,110 @@
+html{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    font-family: Product Sans;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul{
+    list-style: none;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 10px;
+}
+
+.menu-icon{
+    background-image: url(https://static.thenounproject.com/png/756729-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.imagen-perfil{
+     border-radius: 50%;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 350px;
+}
+
+footer{
+    width: 100%;
+    height: 7%;
+    background-color: #171717;
+    border-top: solid 1px #1f2024;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    color: #656c70;
+    font-size: 1.7rem;
+    font-family: Product Sans;
+}
+
+section h1{
+    font-family: Product Sans;
+    font-size: 10rem;
+    margin: 0;
+}
+
